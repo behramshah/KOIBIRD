@@ -7,11 +7,124 @@
   text-transform: uppercase;
 }
 
+.jackets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 40vh;
+  margin-top: 5%;
+}
+
+.jackets__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+.jackets__item {
+  height: 100%;
+  width: 25%;
+}
+
+.jackets__info {
+  width: 60%;
+  margin: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newIn {
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  background-color: #FFFFFF;
+}
+
+.newIn__greenLine {
+  width: 45%;
+  height: 5%;
+  background-color: #E0FF04;
+}
+
+.shopNow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #E0FF04;
+}
+
 .screenshot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
   height: 100vh;
+  position: relative;
   background: url(source/ScreenShot.png);
   background-size: cover;
+}
+
+.screenshot__image {
+  width: 35%;
+  height: 12%;
+  left: 50%;
+  position: absolute;
+}
+
+.screenshot__textArrow {
+  width: 25%;
+  height: 5%;
+  left: 75%;
+  top: 57%;
+  position: absolute;
+}
+
+.screenshot__text {
+  color: #FFFFFF;
 }
 
 .header {
@@ -113,7 +226,6 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  /* width: 9%; */background: url(source/Trazado5.svg) no-repeat;
 }
 
 .header__B {

@@ -3,6 +3,7 @@
 $white:#FFFFFF;
 $black:#000000;
 $blue:#20cef5;
+$yellowGreen: #E0FF04;
 
 @mixin flexCenter ($justify-content){
     display: flex;
@@ -18,11 +19,71 @@ $blue:#20cef5;
     text-transform: uppercase;
 }
 
+.jackets {
+    @include flexCenter(space-evenly);
+    width: 100vw;
+    height: 40vh;
+    margin-top: 5%;
+        &__items {
+            @include flexCenter(space-evenly);
+            height: 100%;
+            width: 80%;
+        }
+        &__item {
+            height: 100%;
+            width: 25%;
+        }
+        &__info{
+            width: 60%;
+            margin: 3%;
+            @include flexCenter(center);
+        }
+}
+
+.newIn {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: $white;
+        &__greenLine{
+            width: 45%;
+            height: 5%;
+            background-color: $yellowGreen
+        }
+}
+
+.shopNow {
+    @include flexCenter(center);
+    width: 100vw;
+    height: 10vh;
+    background-color: $yellowGreen;
+}
+
 .screenshot {
+    @include flexCenter(center);
     width: 100vw;
     height: 100vh;
+    position: relative;
     background: url(source/ScreenShot.png);
     background-size: cover;
+        &__image {
+            width: 35%;
+            height: 12%;
+            left: 50%;
+            position: absolute;
+        }
+        &__textArrow {
+            width: 25%;
+            height: 5%;
+            left:75%;
+            top: 57%;
+            position: absolute;
+        }
+        &__text {
+            color: $white;
+        }
 
 }
 
@@ -73,7 +134,6 @@ $blue:#20cef5;
         &__O{
             @include flexCenter(center);
             height: 100%;
-            background: url(source/Trazado5.svg) no-repeat
         }
         &__B{
             @include flexCenter(center);
