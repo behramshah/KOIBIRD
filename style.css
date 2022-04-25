@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+* {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.screenshot {
+  width: 100vw;
+  height: 100vh;
+  background: url(source/ScreenShot.png);
+  background-size: cover;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__search {
+  width: 10vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__searchline {
+  width: 100%;
+  border: none;
+  position: relative;
+  padding-left: 22px;
+  padding-bottom: 0.5vh;
+  border-bottom: 1px solid #000000;
+}
+
+.header__searchIcon {
+  left: 10px;
+  z-index: 1;
+  position: absolute;
+}
+
+.header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60vw;
+}
+
+.header__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30vw;
+  cursor: pointer;
+}
+
+.header__register {
+  width: 20%;
+  font-size: 14px;
+}
+
+.header__myAccount {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  width: 20%;
+  font-size: 14px;
+}
+
+.header__bagwishlist {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__O {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  /* width: 9%; */background: url(source/Trazado5.svg) no-repeat;
+}
+
+.header__B {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__R {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__D {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__outline {
+  position: relative;
+}
+
+.header__innerLetterO {
+  z-index: 1;
+  position: absolute;
+}
+
+.header__innerLetterBup {
+  z-index: 1;
+  padding-left: 1vh;
+  padding-bottom: 2.6vh;
+  position: absolute;
+}
+
+.header__innerLetterBdown {
+  z-index: 1;
+  padding-top: 2.2vh;
+  position: absolute;
+}
+
+.header__innerLetterRup {
+  z-index: 1;
+  padding-left: 1vh;
+  padding-bottom: 2.6vh;
+  position: absolute;
+}
+
+.header__nav {
+  height: 10vh;
+  width: 100vw;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__shopby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  cursor: pointer;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0 5px;
+  padding: 0 2px;
+}
+/*# sourceMappingURL=style.css.map */
